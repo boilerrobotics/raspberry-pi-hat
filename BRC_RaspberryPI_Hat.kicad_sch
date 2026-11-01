@@ -5176,6 +5176,105 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "H"
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.175 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "mounting hole"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "MountingHole*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "MountingHole_0_1"
+			(circle
+				(center 0 0)
+				(radius 1.27)
+				(stroke
+					(width 1.27)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	)
 	(text "PUL"
 		(exclude_from_sim no)
@@ -5452,6 +5551,18 @@
 		(at 161.29 172.72)
 		(uuid "ca790de5-8600-4dd2-a300-bb593ea6afeb")
 	)
+	(no_connect
+	(at 73.66 35.56)
+	(uuid "0d72f5dd-f04a-4b31-92a0-7285cc32df8f")
+)
+	(no_connect
+	(at 73.66 38.1)
+	(uuid "538e164d-07e4-463d-b790-7a5cea84e7db")
+)
+	(no_connect
+	(at 73.66 58.42)
+	(uuid "0194b0a7-42f3-4628-91b3-d79d4c4e0659")
+)
 	(wire
 		(pts
 			(xy 179.07 62.23) (xy 182.88 62.23)
@@ -5481,16 +5592,6 @@
 			(type default)
 		)
 		(uuid "01db6ede-1a8d-4b9a-b4d8-03c60833452a")
-	)
-	(wire
-		(pts
-			(xy 73.66 58.42) (xy 100.33 58.42)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "01e536fb-12ab-43ce-a95e-82675e37d4b7")
 	)
 	(wire
 		(pts
@@ -5681,16 +5782,6 @@
 			(type solid)
 		)
 		(uuid "252c2642-5979-4a84-8d39-11da2e3821fe")
-	)
-	(wire
-		(pts
-			(xy 73.66 35.56) (xy 100.33 35.56)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "2710a316-ad7d-4403-afc1-1df73ba69697")
 	)
 	(wire
 		(pts
@@ -6461,16 +6552,6 @@
 			(type solid)
 		)
 		(uuid "8be27609-9e1b-4f30-91d1-6a80025d6dcb")
-	)
-	(wire
-		(pts
-			(xy 73.66 38.1) (xy 100.33 38.1)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "8ccbbafc-2cdc-415a-ac78-6ccd25489208")
 	)
 	(wire
 		(pts
@@ -7432,26 +7513,6 @@
 		)
 		(uuid "33f508c5-de60-4913-ae6d-b58aecc40486")
 	)
-	(label "GPIO10{slash}SPI0.MOSI"
-		(at 31.75 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "35a1cc8d-cefe-4fd3-8f7e-ebdbdbd072ee")
-	)
-	(label "GPIO9{slash}SPI0.MISO"
-		(at 31.75 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3911220d-b117-4874-8479-50c0285caa70")
-	)
 	(label "VSERVO"
 		(at 217.17 43.18 180)
 		(effects
@@ -7472,16 +7533,6 @@
 		)
 		(uuid "45550f58-81b3-4113-a98b-8910341c00d8")
 	)
-	(label "GPIO4{slash}GPCLK0"
-		(at 35.56 35.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5069ddbc-357e-4355-aaa5-a8f551963b7a")
-	)
 	(label "GPIO27"
 		(at 41.91 43.18 0)
 		(effects
@@ -7491,36 +7542,6 @@
 			(justify left bottom)
 		)
 		(uuid "591fa762-d154-4cf7-8db7-a10b610ff12a")
-	)
-	(label "GPIO14{slash}TXD0"
-		(at 100.33 35.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "610a05f5-0e9b-4f2c-960c-05aafdc8e1b9")
-	)
-	(label "GPIO8{slash}SPI0.CE0"
-		(at 100.33 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "64ee07d4-0247-486c-a5b0-d3d33362f168")
-	)
-	(label "GPIO15{slash}RXD0"
-		(at 100.33 38.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6638ca0d-5409-4e89-aef0-b0f245a25578")
 	)
 	(label "GPIO16"
 		(at 100.33 71.12 180)
@@ -7552,16 +7573,6 @@
 		)
 		(uuid "7b26a4ea-8268-4ee0-8251-04ec1604e46d")
 	)
-	(label "GPIO22"
-		(at 31.75 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "831c710c-4564-4e13-951a-b3746ba43c78")
-	)
 	(label "GPIO2{slash}SDA1"
 		(at 31.75 30.48 0)
 		(effects
@@ -7581,16 +7592,6 @@
 			(justify left bottom)
 		)
 		(uuid "9316d4cc-792f-4eb9-8a8b-1201587737ed")
-	)
-	(label "GPIO25"
-		(at 100.33 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9d507609-a820-4ac3-9e87-451a1c0e6633")
 	)
 	(label "GPIO3{slash}SCL1"
 		(at 31.75 33.02 0)
@@ -7662,26 +7663,6 @@
 		)
 		(uuid "b8e48041-ff05-4814-a4a3-fb04f84542aa")
 	)
-	(label "GPIO7{slash}SPI0.CE1"
-		(at 100.33 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "be4b9f73-f8d2-4c28-9237-5d7e964636fa")
-	)
-	(label "GPIO11{slash}SPI0.SCLK"
-		(at 31.75 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f9b80c2b-5447-4c6b-b35d-cb6b75fa7978")
-	)
 	(label "VSERVO"
 		(at 269.24 107.95 0)
 		(effects
@@ -7705,54 +7686,6 @@
 		(uuid "1c13571b-2b07-4566-9f57-3bc21e6f1ca6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 239.1994 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GPIO9{slash}SPI0.MISO"
-		(shape bidirectional)
-		(at 31.75 53.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "326e4320-7daf-4115-b801-f3b1a4b5a4b1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 11.1436 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GPIO11{slash}SPI0.SCLK"
-		(shape bidirectional)
-		(at 31.75 55.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3b695a11-e783-4251-8880-2e78de342c07")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 9.7527 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7860,30 +7793,6 @@
 			)
 		)
 	)
-	(global_label "GPIO25"
-		(shape bidirectional)
-		(at 100.33 53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b969d5e5-44e4-4dd8-aaa8-baab3fe55985")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.3206 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "GPIO4{slash}GPCLK0"
 		(shape input)
 		(at 246.38 88.9 180)
@@ -7897,54 +7806,6 @@
 		(uuid "be17f729-7df6-479a-865d-0eb5eee6b193")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 229.0619 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GPIO22"
-		(shape bidirectional)
-		(at 31.75 45.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c4588c55-b5d0-475d-b636-68c2f78ac429")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.7594 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GPIO10{slash}SPI0.MOSI"
-		(shape bidirectional)
-		(at 31.75 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c947bf33-397f-4e00-a94a-5f29a6074f94")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 9.9341 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8075,6 +7936,61 @@
 				(justify right)
 			)
 		)
+	)
+	(global_label "GPIO10{slash}SPI0.MOSI"
+		(shape bidirectional)
+		(at 31.75 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e4519e1b-6256-4bfb-a91c-5b7015048f9b")
+	)
+	(global_label "GPIO9{slash}SPI0.MISO"
+		(shape bidirectional)
+		(at 31.75 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a4a8bf36-e548-4dee-84bb-e5d3bd126266")
+	)
+	(global_label "GPIO11{slash}SPI0.SCLK"
+		(shape bidirectional)
+		(at 31.75 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "03e7bfca-54b5-42cb-84e3-deef236ed9a2")
+	)
+	(global_label "GPIO22"
+		(shape bidirectional)
+		(at 31.75 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1c19eec9-65cd-4054-8b4b-5d4890cc03af")
+	)
+	(global_label "GPIO25"
+		(shape bidirectional)
+		(at 100.33 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "74c07736-d559-46a7-9068-d337febe5521")
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -14525,6 +14441,433 @@
 			)
 		)
 	)
+	(symbol
+	(lib_name "Mechanical:MountingHole")
+	(lib_id "Mechanical:MountingHole")
+	(at 25.4 165.1 0)
+	(unit 1)
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(dnp no)
+	(uuid "89179875-7a19-45e6-abbe-ed2eb443047e")
+	(property "Reference" "H1"
+		(at 25.4 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "MountingHole_M2.5"
+		(at 25.4 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+		(at 25.4 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 25.4 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(instances
+		(project "BRC_RaspberryPI_Hat"
+			(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+				(reference "H1")
+				(unit 1)
+			)
+		)
+	)
+)
+	(symbol
+	(lib_name "Mechanical:MountingHole")
+	(lib_id "Mechanical:MountingHole")
+	(at 35.56 165.1 0)
+	(unit 1)
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(dnp no)
+	(uuid "e8772d03-fe9f-4144-b26e-d039c679dcf0")
+	(property "Reference" "H2"
+		(at 35.56 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "MountingHole_M2.5"
+		(at 35.56 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+		(at 35.56 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 35.56 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(instances
+		(project "BRC_RaspberryPI_Hat"
+			(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+				(reference "H2")
+				(unit 1)
+			)
+		)
+	)
+)
+	(symbol
+	(lib_name "Mechanical:MountingHole")
+	(lib_id "Mechanical:MountingHole")
+	(at 45.72 165.1 0)
+	(unit 1)
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(dnp no)
+	(uuid "68e36b51-1fa1-405f-b291-0a8724a1c505")
+	(property "Reference" "H3"
+		(at 45.72 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "MountingHole_M2.5"
+		(at 45.72 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+		(at 45.72 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 45.72 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(instances
+		(project "BRC_RaspberryPI_Hat"
+			(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+				(reference "H3")
+				(unit 1)
+			)
+		)
+	)
+)
+	(symbol
+	(lib_name "Mechanical:MountingHole")
+	(lib_id "Mechanical:MountingHole")
+	(at 55.88 165.1 0)
+	(unit 1)
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(dnp no)
+	(uuid "b039549f-628f-4b14-a8df-c26a0823496d")
+	(property "Reference" "H4"
+		(at 55.88 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "MountingHole_M2.5"
+		(at 55.88 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+		(at 55.88 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 55.88 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(instances
+		(project "BRC_RaspberryPI_Hat"
+			(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+				(reference "H4")
+				(unit 1)
+			)
+		)
+	)
+)
+	(symbol
+	(lib_name "Device:C")
+	(lib_id "Device:C")
+	(at 163.83 50.8 0)
+	(unit 1)
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(dnp no)
+	(uuid "89b6ec43-2eda-46fb-ab8d-3b9d3d84abc0")
+	(property "Reference" "C6"
+		(at 163.83 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "100n"
+		(at 163.83 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(at 163.83 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 163.83 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(pin "1"
+	(uuid "4ab16370-f626-4316-9ad8-d8de6c721565")
+)
+	(pin "2"
+	(uuid "4641794f-61e7-41e3-bcad-33ea6079904d")
+)
+	(instances
+		(project "BRC_RaspberryPI_Hat"
+			(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+				(reference "C6")
+				(unit 1)
+			)
+		)
+	)
+)
+	(symbol
+	(lib_name "power:+3.3V")
+	(lib_id "power:+3.3V")
+	(at 163.83 46.99 0)
+	(unit 1)
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(dnp no)
+	(uuid "cf974ffd-0e98-4931-bf40-a29236dc8a43")
+	(property "Reference" "#PWR040"
+		(at 163.83 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "+3.3V"
+		(at 163.83 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 163.83 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 163.83 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(pin "1"
+	(uuid "56a24214-1cd1-417e-b131-78aaaefe203b")
+)
+	(instances
+		(project "BRC_RaspberryPI_Hat"
+			(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+				(reference "#PWR040")
+				(unit 1)
+			)
+		)
+	)
+)
+	(symbol
+	(lib_name "power:GND")
+	(lib_id "power:GND")
+	(at 163.83 54.61 0)
+	(unit 1)
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(dnp no)
+	(uuid "e711b22f-04fd-40df-b29e-929929bdc3c8")
+	(property "Reference" "#PWR041"
+		(at 163.83 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "GND"
+		(at 163.83 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 163.83 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 163.83 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(pin "1"
+	(uuid "5448f805-744d-4a95-bd97-34e8e6670f51")
+)
+	(instances
+		(project "BRC_RaspberryPI_Hat"
+			(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+				(reference "#PWR041")
+				(unit 1)
+			)
+		)
+	)
+)
+	(symbol_instances
+		(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89179875-7a19-45e6-abbe-ed2eb443047e"
+			(reference "H1")
+			(unit 1)
+			(value "MountingHole_M2.5")
+			(footprint "MountingHole:MountingHole_2.7mm_M2.5")
+		)
+		(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e8772d03-fe9f-4144-b26e-d039c679dcf0"
+			(reference "H2")
+			(unit 1)
+			(value "MountingHole_M2.5")
+			(footprint "MountingHole:MountingHole_2.7mm_M2.5")
+		)
+		(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/68e36b51-1fa1-405f-b291-0a8724a1c505"
+			(reference "H3")
+			(unit 1)
+			(value "MountingHole_M2.5")
+			(footprint "MountingHole:MountingHole_2.7mm_M2.5")
+		)
+		(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b039549f-628f-4b14-a8df-c26a0823496d"
+			(reference "H4")
+			(unit 1)
+			(value "MountingHole_M2.5")
+			(footprint "MountingHole:MountingHole_2.7mm_M2.5")
+		)
+		(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89b6ec43-2eda-46fb-ab8d-3b9d3d84abc0"
+			(reference "C6")
+			(unit 1)
+			(value "100n")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+		)
+		(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf974ffd-0e98-4931-bf40-a29236dc8a43"
+			(reference "#PWR040")
+			(unit 1)
+			(value "+3.3V")
+			(footprint "")
+		)
+		(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e711b22f-04fd-40df-b29e-929929bdc3c8"
+			(reference "#PWR041")
+			(unit 1)
+			(value "GND")
+			(footprint "")
+		)
+)
 	(sheet_instances
 		(path "/"
 			(page "1")
