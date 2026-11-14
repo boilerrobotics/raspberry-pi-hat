@@ -4488,6 +4488,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 55.88) (xy 200.66 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d1d8207-2a47-4c1c-ae9e-eb1ad81ff700")
+	)
+	(wire
+		(pts
 			(xy 196.85 134.62) (xy 205.74 134.62)
 		)
 		(stroke
@@ -4638,6 +4648,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 67.31) (xy 200.66 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3338ca08-3df9-4394-aa20-f1a3e1920060")
+	)
+	(wire
+		(pts
 			(xy 58.42 38.1) (xy 60.96 38.1)
 		)
 		(stroke
@@ -4758,16 +4778,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 60.96) (xy 200.66 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42d71023-e1f9-4997-8a19-eb0170e377f0")
-	)
-	(wire
-		(pts
 			(xy 154.94 78.74) (xy 158.75 78.74)
 		)
 		(stroke
@@ -4878,6 +4888,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 83.82) (xy 200.66 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54d0b19f-615c-41b9-b7e8-90fb6ed8cefc")
+	)
+	(wire
+		(pts
 			(xy 73.66 76.2) (xy 100.33 76.2)
 		)
 		(stroke
@@ -4935,6 +4955,16 @@
 			(type default)
 		)
 		(uuid "60cfd33f-823c-409e-8beb-1525aa8c3c9e")
+	)
+	(wire
+		(pts
+			(xy 196.85 69.85) (xy 200.66 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60d9f47f-8e79-4d76-b14f-e2bd964e8364")
 	)
 	(wire
 		(pts
@@ -5085,6 +5115,16 @@
 			(type solid)
 		)
 		(uuid "7d1a0af8-a3d8-4dbb-9873-21a280e175b7")
+	)
+	(wire
+		(pts
+			(xy 195.58 60.96) (xy 200.66 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d2e8a30-491c-4850-8bb7-710a0c292d92")
 	)
 	(wire
 		(pts
@@ -5498,16 +5538,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 55.88) (xy 200.66 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c135d3d1-eb6f-4b43-b679-87c80c1de2ee")
-	)
-	(wire
-		(pts
 			(xy 76.2 33.02) (xy 73.66 33.02)
 		)
 		(stroke
@@ -5558,13 +5588,13 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 58.42) (xy 200.66 58.42)
+			(xy 196.85 58.42) (xy 200.66 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c8d93fb3-9656-4964-8444-0ee7e2487b7b")
+		(uuid "cb2119a3-a973-413e-8db7-75c916395cb9")
 	)
 	(wire
 		(pts
@@ -5688,6 +5718,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 72.39) (xy 200.66 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea1c5d46-78a9-4792-b100-0bb5eaaaac7c")
+	)
+	(wire
+		(pts
 			(xy 158.75 99.06) (xy 190.5 99.06)
 		)
 		(stroke
@@ -5695,6 +5735,16 @@
 			(type default)
 		)
 		(uuid "eb0aa234-5699-436e-b451-444b92010d08")
+	)
+	(wire
+		(pts
+			(xy 196.85 81.28) (xy 200.66 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebd6cd7b-62e0-435b-8ff4-5414a74ed268")
 	)
 	(wire
 		(pts
@@ -5828,6 +5878,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 78.74) (xy 200.66 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd589479-bc54-4fad-931a-1e602a43a6b5")
+	)
+	(wire
+		(pts
 			(xy 48.26 135.89) (xy 54.61 135.89)
 		)
 		(stroke
@@ -5845,6 +5905,16 @@
 			(type default)
 		)
 		(uuid "fea346e2-d7e8-4a2a-90fa-a1e4b771395f")
+	)
+	(label "GPIO3{slash}SCL1"
+		(at 195.58 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0157f156-b5fe-4378-b35a-275cddc971df")
 	)
 	(label "GPIO26"
 		(at 48.26 135.89 0)
@@ -5935,6 +6005,16 @@
 			(justify left bottom)
 		)
 		(uuid "29d046c2-f681-4254-89b3-1ec3aa495433")
+	)
+	(label "GPIO14{slash}TXD0"
+		(at 195.58 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "300ae1bd-f919-40ba-ae58-34504dcdfad0")
 	)
 	(label "GPIO21"
 		(at 100.33 76.2 180)
@@ -6115,6 +6195,16 @@
 			(justify right bottom)
 		)
 		(uuid "6a63dbe8-50e2-4ffb-a55f-e0df0f695e9b")
+	)
+	(label "GPIO2{slash}SDA1"
+		(at 195.58 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6f7fd481-f767-44f4-9486-982bb6245074")
 	)
 	(label "SERVO2_PWM"
 		(at 31.75 68.58 0)
@@ -6306,16 +6396,6 @@
 		)
 		(uuid "eaef1f35-4fbd-440b-afe1-410fce851245")
 	)
-	(label "GPIO8"
-		(at 195.58 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f6c61227-f0e6-4351-bdce-4c4f5bcad958")
-	)
 	(label "GPIO5"
 		(at 48.26 130.81 0)
 		(effects
@@ -6423,7 +6503,7 @@
 			(uuid "fd2c46a1-7aae-42a9-93da-4ab8c0ebf781")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR01")
 					(unit 1)
@@ -6498,7 +6578,7 @@
 			(uuid "fdfe2621-3322-4e6b-8d8a-a69772548e87")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR04")
 					(unit 1)
@@ -6573,7 +6653,7 @@
 			(uuid "6d128834-dfd6-4792-956f-f932023802bf")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR03")
 					(unit 1)
@@ -6766,7 +6846,7 @@
 			(uuid "782d2c1f-9599-409d-a3cc-c1b6fda247d8")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J1")
 					(unit 1)
@@ -6844,9 +6924,88 @@
 			(uuid "d3586e55-3720-458a-91e8-bc4b35d09baf")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 196.85 78.74 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0754ec9a-ce8c-4e60-a66f-0558b859c5f3")
+		(property "Reference" "#PWR042"
+			(at 190.5 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 193.04 78.7399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "612cb357-9b16-42d6-8421-5ffd33813793")
+		)
+		(instances
+			(project "BRC_RaspberryPI_Hat (3)"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -6925,7 +7084,7 @@
 			(uuid "9ff3840e-e443-49e8-9fe8-411a314c02cc")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C1")
 					(unit 1)
@@ -7035,7 +7194,7 @@
 			(uuid "6fdb53a0-a7dd-471c-894e-104d1a468f0c")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "Q2")
 					(unit 1)
@@ -7113,7 +7272,7 @@
 			(uuid "c7d289bc-5677-453d-8828-b31302432d89")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR018")
 					(unit 1)
@@ -7198,7 +7357,7 @@
 			(uuid "1ce5e420-76b4-4a0d-abc4-c27fd7771f57")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "Servo1")
 					(unit 1)
@@ -7283,7 +7442,7 @@
 			(uuid "7548b272-6cb5-4d80-a09f-3955cb63691f")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "Servo3")
 					(unit 1)
@@ -7363,9 +7522,94 @@
 			(uuid "9a21b51c-cc06-4309-9599-a6d4a59d2f87")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 205.74 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1aae000c-c388-4b7f-8641-b761c1011e67")
+		(property "Reference" "Servo7"
+			(at 208.28 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 208.28 71.1199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 205.74 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 205.74 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "0f5c8502-52a8-49f1-8968-cca25f3834f5")
+		)
+		(pin "2"
+			(uuid "4673dc56-3830-4006-81d6-7193545462fc")
+		)
+		(pin "1"
+			(uuid "b64f42f2-de52-4ecb-b60b-1587aa6cddb7")
+		)
+		(instances
+			(project "BRC_RaspberryPI_Hat (3)"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "Servo7")
 					(unit 1)
 				)
 			)
@@ -7441,7 +7685,7 @@
 			(uuid "d6029aaa-72ac-48ee-b05c-53507ebb7993")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR030")
 					(unit 1)
@@ -7519,7 +7763,7 @@
 			(uuid "629c2328-0246-4fb1-be47-4aff856a156d")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR027")
 					(unit 1)
@@ -7600,9 +7844,94 @@
 			(uuid "7488f874-1953-4813-81b9-cd4227008ee3")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 205.74 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24dbff15-7da9-47fc-9a67-107d53342895")
+		(property "Reference" "Servo6"
+			(at 208.28 57.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 208.28 59.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 205.74 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 205.74 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "71766b10-d4f9-4cbd-bcd2-eee592772d7f")
+		)
+		(pin "2"
+			(uuid "780e4218-edd8-4382-88a3-d53cf43ce9c4")
+		)
+		(pin "1"
+			(uuid "bc8f3afa-4034-4953-adb0-268250344b1a")
+		)
+		(instances
+			(project "BRC_RaspberryPI_Hat (3)"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "Servo6")
 					(unit 1)
 				)
 			)
@@ -7724,7 +8053,7 @@
 			(uuid "ebaa196b-9964-4d64-a0e4-072f0f1beae0")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U2")
 					(unit 1)
@@ -7806,7 +8135,7 @@
 			(uuid "e7c75c04-c73b-40b7-844a-6f5a356aa6ed")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R7")
 					(unit 1)
@@ -7888,7 +8217,7 @@
 			(uuid "6f67c3ec-2b14-4bbb-aa9e-0453232c57ba")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J3")
 					(unit 1)
@@ -7967,7 +8296,7 @@
 			(uuid "051cb004-136b-4bf7-a70c-65187735947e")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#FLG04")
 					(unit 1)
@@ -8091,7 +8420,7 @@
 			(uuid "149cbc3e-2b07-40a3-af01-1db137ba43ed")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U3")
 					(unit 1)
@@ -8170,7 +8499,7 @@
 			(uuid "837908d3-03d9-4269-8742-b7a120948664")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR020")
 					(unit 1)
@@ -8255,9 +8584,88 @@
 			(uuid "ac8ac980-c4c6-40ae-ab46-e489d513465c")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "Servo2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 196.85 55.88 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40b0d638-5c1c-4b62-a5cd-705cd7ea8500")
+		(property "Reference" "#PWR038"
+			(at 190.5 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 193.04 55.8799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "99f34481-71b0-43d2-8c02-51eef1dc4cdc")
+		)
+		(instances
+			(project "BRC_RaspberryPI_Hat (3)"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -8335,7 +8743,7 @@
 			(uuid "d8307d78-9c27-4726-8324-ecb2ccfc08bc")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "JP1")
 					(unit 1)
@@ -8413,7 +8821,7 @@
 			(uuid "79c54c10-396f-48ac-8619-473f2cba3aa9")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR028")
 					(unit 1)
@@ -8495,7 +8903,7 @@
 			(uuid "78600ab3-6110-465b-bca2-834ed00f14c5")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R6")
 					(unit 1)
@@ -8577,9 +8985,88 @@
 			(uuid "0c148653-ea72-46c7-aeb0-942582b5fbca")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "FP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 196.85 58.42 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4cc616b0-ad77-452c-badc-9aef80d20900")
+		(property "Reference" "#PWR039"
+			(at 200.66 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 193.04 58.4199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 196.85 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3fece519-ba7a-4a34-bb2a-3503c5414c1a")
+		)
+		(instances
+			(project "BRC_RaspberryPI_Hat (3)"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -8655,7 +9142,7 @@
 			(uuid "d642116e-3687-43ec-b8ef-809643d24f56")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR033")
 					(unit 1)
@@ -8734,7 +9221,7 @@
 			(uuid "28248bf6-731a-4f57-9978-10809ea46ec7")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR022")
 					(unit 1)
@@ -8815,7 +9302,7 @@
 			(uuid "dbe59a22-f661-4a8c-ac48-ca5e69f63f72")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R2")
 					(unit 1)
@@ -8897,7 +9384,7 @@
 			(uuid "0f012049-c179-4421-b7fd-9c1002fc9f83")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "FP1")
 					(unit 1)
@@ -8974,7 +9461,7 @@
 			(uuid "95bb9371-29dc-486d-8319-3c992c77fef5")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR0101")
 					(unit 1)
@@ -9084,7 +9571,7 @@
 			(uuid "3ebf617e-6286-4b13-8a8c-9e0242987fa4")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "Q3")
 					(unit 1)
@@ -9162,7 +9649,7 @@
 			(uuid "a4854e6e-5dd0-4f70-a094-3e29415ab792")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#FLG01")
 					(unit 1)
@@ -9240,9 +9727,88 @@
 			(uuid "2e0aa34e-b414-4f6e-ab32-55bc53d255b5")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 196.85 67.31 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "688c974c-cdda-44b1-b405-cb0a516c3752")
+		(property "Reference" "#PWR040"
+			(at 190.5 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 193.04 67.3099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "20dc08dd-9e2f-43ed-93af-602e38de469c")
+		)
+		(instances
+			(project "BRC_RaspberryPI_Hat (3)"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -9319,7 +9885,7 @@
 			(uuid "f418e4db-cdc3-4621-8980-8b833ebaaf6c")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR024")
 					(unit 1)
@@ -9361,7 +9927,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 254 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -9401,7 +9967,7 @@
 			(uuid "69f191fc-83b9-4621-b50f-1cb14dd249b1")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "stirrer1")
 					(unit 1)
@@ -9479,7 +10045,7 @@
 			(uuid "57c4f1e0-e225-4381-a433-676af96fc3d5")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR017")
 					(unit 1)
@@ -9576,7 +10142,7 @@
 			(uuid "c56f28bf-cf40-4e4e-a9f4-f21b10a5a1a0")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U1")
 					(unit 1)
@@ -9658,7 +10224,7 @@
 			(uuid "ec99a413-e74b-4931-8f20-2b32b96a17a7")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C2")
 					(unit 1)
@@ -9737,7 +10303,7 @@
 			(uuid "0eeac0e4-cb37-4e9a-bb59-ee2564abdffa")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR035")
 					(unit 1)
@@ -9779,7 +10345,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 254 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -9819,7 +10385,7 @@
 			(uuid "1ecb45d7-8d86-4e10-be0b-d0fad5968e48")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "stirrer2")
 					(unit 1)
@@ -9828,8 +10394,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 195.58 55.88 270)
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 205.74 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9838,31 +10404,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "78d7cab0-cde0-4550-94d1-44369583c15e")
-		(property "Reference" "#PWR036"
-			(at 189.23 55.88 0)
-			(hide yes)
+		(uuid "765b640d-a354-4f57-9142-f4fcbdfc389b")
+		(property "Reference" "Servo8"
+			(at 208.28 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 191.77 55.8799 90)
+		(property "Value" "Conn_01x03"
+			(at 208.28 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 195.58 55.88 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 205.74 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9873,7 +10439,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 55.88 0)
+			(at 205.74 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9883,8 +10449,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 55.88 0)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 205.74 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9893,14 +10459,20 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "3"
+			(uuid "513f485a-3039-4504-b023-007a3c3decb1")
+		)
+		(pin "2"
+			(uuid "11c08710-1354-476c-a9bd-b65388abc4f7")
 		)
 		(pin "1"
-			(uuid "222a092e-7583-4521-adbe-14523b021611")
+			(uuid "daa5d803-e1e9-4d54-a167-9d944904c9ee")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR036")
+					(reference "Servo8")
 					(unit 1)
 				)
 			)
@@ -9976,7 +10548,7 @@
 			(uuid "ce854678-ff4a-4d47-a1c9-cf4efb38848f")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR014")
 					(unit 1)
@@ -10058,7 +10630,7 @@
 			(uuid "40ea8133-001a-4344-98fa-202e8738c562")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R3")
 					(unit 1)
@@ -10137,7 +10709,7 @@
 			(uuid "636cf843-efaa-4dc6-b711-975983036f67")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#FLG02")
 					(unit 1)
@@ -10215,7 +10787,7 @@
 			(uuid "ef933297-4e91-4e11-84bc-f16be8662c0d")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#FLG03")
 					(unit 1)
@@ -10297,7 +10869,7 @@
 			(uuid "3a5c0d26-e858-41fa-8768-5ecbc30cb74d")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J2")
 					(unit 1)
@@ -10376,7 +10948,7 @@
 			(uuid "8d5bc6d3-065d-4807-bd3b-058a59226d61")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR09")
 					(unit 1)
@@ -10455,7 +11027,7 @@
 			(uuid "d47504b6-aff3-4fab-bc44-be8e047b4d99")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR010")
 					(unit 1)
@@ -10534,7 +11106,7 @@
 			(uuid "ab6acf42-e17e-4808-8103-6d62a3e00602")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR05")
 					(unit 1)
@@ -10613,7 +11185,7 @@
 			(uuid "7a5bd8a1-66e4-407b-8378-29a2921e5be5")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR034")
 					(unit 1)
@@ -10692,7 +11264,7 @@
 			(uuid "26fee0b0-a486-43e4-a615-c1ce5238f002")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR06")
 					(unit 1)
@@ -10771,7 +11343,7 @@
 			(uuid "cbe5013b-5222-4673-bc29-3a25033e21ca")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR07")
 					(unit 1)
@@ -10846,7 +11418,7 @@
 			(uuid "6d128834-dfd6-4792-956f-f932023802c0")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR0102")
 					(unit 1)
@@ -10928,7 +11500,7 @@
 			(uuid "867f3dae-c4d9-4b4b-9191-1a4cf5431be0")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C3")
 					(unit 1)
@@ -10970,7 +11542,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 205.74 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -11013,94 +11585,9 @@
 			(uuid "01b903eb-df85-4600-80cc-b1ea74e684c0")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "Servo5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 205.74 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c551a27b-5ea5-48ec-9235-ac33b361dff0")
-		(property "Reference" "J4"
-			(at 208.28 57.1499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x03"
-			(at 208.28 59.6899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 205.74 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "d71e9346-6e11-4bde-b1e7-cbc01ce3f733")
-		)
-		(pin "2"
-			(uuid "0e9c5b9e-25f2-4b57-8631-bafa4100a869")
-		)
-		(pin "1"
-			(uuid "40c8af24-411d-4eac-b895-ad080984c1f3")
-		)
-		(instances
-			(project "rphat"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -11177,7 +11664,7 @@
 			(uuid "72efb7cc-c03a-46d6-95f8-bf9aac1b5a29")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR012")
 					(unit 1)
@@ -11257,88 +11744,9 @@
 			(uuid "4addb573-7247-4a30-a4e0-a7c01c916f8b")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 195.58 58.42 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb973e92-6dee-47d0-a047-151c696d70c2")
-		(property "Reference" "#PWR037"
-			(at 199.39 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 191.77 58.4199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 195.58 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "55d6fc3f-88bd-445d-a410-978d182317a2")
-		)
-		(instances
-			(project "rphat"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -11446,7 +11854,7 @@
 			(uuid "f8ccfa3e-99ff-418d-88c0-7ecd77f9dcac")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "Q1")
 					(unit 1)
@@ -11525,7 +11933,7 @@
 			(uuid "124a6e49-9391-43b7-8677-dadaa06dd207")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR023")
 					(unit 1)
@@ -11619,7 +12027,7 @@
 			(uuid "500af645-0dad-498f-9999-12f9d8ede114")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "Stepper1")
 					(unit 1)
@@ -11704,7 +12112,7 @@
 			(uuid "78de3292-ba91-4253-b734-ad09b107d372")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "Servo4")
 					(unit 1)
@@ -11782,7 +12190,7 @@
 			(uuid "2b1fada1-50b0-4e5a-82fb-a68db6a5e608")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR0103")
 					(unit 1)
@@ -11860,7 +12268,7 @@
 			(uuid "7d632c74-0ba1-420e-a745-8b6ee3a134a3")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR021")
 					(unit 1)
@@ -11939,7 +12347,7 @@
 			(uuid "e87e4ad0-20c0-45e7-b3c7-811e5138686f")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR011")
 					(unit 1)
@@ -12017,7 +12425,7 @@
 			(uuid "5a6b5f6c-45a7-41e5-af0b-99b6e8f25bb5")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR02")
 					(unit 1)
@@ -12095,9 +12503,88 @@
 			(uuid "1644a07f-776d-44f3-80e4-b7d100586172")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 196.85 69.85 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3d03b5a-181a-4130-adc1-7cb9ae2be025")
+		(property "Reference" "#PWR041"
+			(at 200.66 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 193.04 69.8499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 196.85 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c71bb42d-32d2-45e4-8404-9920af3c892c")
+		)
+		(instances
+			(project "BRC_RaspberryPI_Hat (3)"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -12174,7 +12661,7 @@
 			(uuid "afeea949-6bdc-4bc0-86f0-ab3ba9427e36")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR08")
 					(unit 1)
@@ -12252,7 +12739,7 @@
 			(uuid "fbe41a01-36c1-482a-93b7-645eb8d9e934")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR029")
 					(unit 1)
@@ -12330,7 +12817,7 @@
 			(uuid "2ee21a9a-c561-4b9f-a75e-bd0ebd06e4fc")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR032")
 					(unit 1)
@@ -12409,7 +12896,7 @@
 			(uuid "711b40b4-0a87-49d5-b724-46f08c603d4e")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR013")
 					(unit 1)
@@ -12487,7 +12974,7 @@
 			(uuid "103e47de-5069-4833-a7f0-d0a0089a3e1c")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR015")
 					(unit 1)
@@ -12565,7 +13052,7 @@
 			(uuid "0f4c1bae-c987-4120-9d47-556d69515d93")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR025")
 					(unit 1)
@@ -12643,7 +13130,7 @@
 			(uuid "da0532f4-3df6-4f95-8789-18bf84ef4c06")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR016")
 					(unit 1)
@@ -12723,9 +13210,88 @@
 			(uuid "6f371fbf-efa7-4905-9248-38280c72583a")
 		)
 		(instances
-			(project "rphat"
+			(project "BRC_RaspberryPI_Hat (3)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 196.85 81.28 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe396ed1-91ec-4c30-b35e-754a5faf2883")
+		(property "Reference" "#PWR043"
+			(at 200.66 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 193.04 81.2799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 196.85 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "798fbf38-8803-4903-a624-83c98636a04d")
+		)
+		(instances
+			(project "BRC_RaspberryPI_Hat (3)"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
